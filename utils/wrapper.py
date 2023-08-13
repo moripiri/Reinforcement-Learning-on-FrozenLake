@@ -7,11 +7,13 @@ import matplotlib.pyplot as plt
 class JupyterRender(gym.Wrapper):
     def __init__(self, env):
         super().__init__(env)
-
+        
     def render(self):
-        img = plt.imshow(self.env.render())  # prepare to render the environment by using matplotlib and ipython display
+        img = plt.imshow(super.render())  # prepare to render the environment by using matplotlib and ipython display
         display.display(plt.gcf())
         display.clear_output(wait=True)
+          
+        
         
     
 
