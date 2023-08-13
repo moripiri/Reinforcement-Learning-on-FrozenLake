@@ -10,3 +10,6 @@ def visualize_q(q_func: np.ndarray) -> None:
 def visualize_v(v_func: np.ndarray) -> None:
     pass
 
+def visualize_policy(policy: np.ndarray) -> None:
+    pass
+
