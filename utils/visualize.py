@@ -14,8 +14,7 @@ def visualize_q(q_func, ax, nrow=4, ncol=4, title='State-Action Value') -> None:
     v_ticks = np.arange(-0.5, ncol + 0.5, 1)
 
     # plot the state-action function
-    # fig = plt.figure(figsize=(8, 8))
-    # ax = fig.add_subplot(111)
+
     im = ax.imshow(np.zeros([nrow, ncol]), alpha=0.)
 
     for tick in h_ticks:
@@ -44,8 +43,6 @@ def visualize_q(q_func, ax, nrow=4, ncol=4, title='State-Action Value') -> None:
             raise ValueError
     ax.set_title(title)
 
-#     plt.tick_params(bottom=False, left=False, labelbottom=False, labelleft=False)
-#     plt.show()
 
 
 def visualize_v(v_func, ax, nrow=4, ncol=4, title='State Value') -> None:
@@ -57,8 +54,7 @@ def visualize_v(v_func, ax, nrow=4, ncol=4, title='State Value') -> None:
     v_ticks = np.arange(-0.5, ncol + 0.5, 1)
 
     # plot the state-value function
-    # fig = plt.figure(figsize=(8, 8))
-    # ax = fig.add_subplot(111)
+
     im = ax.imshow(np.zeros([nrow, ncol]), alpha=0.)
 
     for tick in h_ticks:
@@ -71,8 +67,7 @@ def visualize_v(v_func, ax, nrow=4, ncol=4, title='State Value') -> None:
         ax.text(i, j, np.round(value, 3), ha='center', va='center', fontsize=14)
         
     ax.set_title(title)
-    # plt.tick_params(bottom=False, left=False, labelbottom=False, labelleft=False)
-    # plt.show()
+
 
 def visualize_policy(policy, ax, nrow=4, ncol=4, title='Policy') -> None:
     # visualize deterministic policy
@@ -86,8 +81,6 @@ def visualize_policy(policy, ax, nrow=4, ncol=4, title='Policy') -> None:
         h_ticks = np.arange(-0.5, nrow + 0.5, 1)
         v_ticks = np.arange(-0.5, ncol + 0.5, 1)
 
-        #fig = plt.figure(figsize=(8, 8))
-        #ax = fig.add_subplot(111)
         im = ax.imshow(np.zeros([nrow, ncol]), alpha=0.)
 
         for tick in h_ticks:
@@ -100,8 +93,6 @@ def visualize_policy(policy, ax, nrow=4, ncol=4, title='Policy') -> None:
             ax.text(i, j, arrow[p], ha='center', va='center', fontsize=36)
 
         ax.set_title(title)
-        #plt.tick_params(bottom=False, left=False, labelbottom=False, labelleft=False)
-        #plt.show()
 
 
 
