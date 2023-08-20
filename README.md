@@ -1,5 +1,5 @@
 # Reinforcement-Learning-on-FrozenLake
-**Introduction to Reinforcement Learning in a simple Gridworld** is a collection of jupyter files that you can learn and try basic reinforcement learning algorithms.  
+**IReinforcement Learning on FrozenLake** is a collection of jupyter files that you can learn and try basic reinforcement learning algorithms.  
 
 This repo is written for people who want to quickly learn basic concepts of Reinforcement Learning with code.  
 
