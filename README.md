@@ -1,5 +1,5 @@
 # Reinforcement-Learning-on-FrozenLake
-**IReinforcement Learning on FrozenLake** is a collection of jupyter files that you can learn and try basic reinforcement learning algorithms.  
+**Reinforcement Learning on FrozenLake** is a collection of jupyter files that you can learn and try basic reinforcement learning algorithms.  
 
 This repo is written for people who want to quickly learn basic concepts of Reinforcement Learning with code.  
 
@@ -13,6 +13,13 @@ This repo is written for people who want to quickly learn basic concepts of Rein
   <p align="center">
     <img src="./Images/viz_example.png" width=500 height=500>
   </p>
+
+## ☝️ Requirements
+- Python
+- Tensorflow
+- Numpy
+- Matplotlib
+- IPython
 
 ## 📖 Contents
 **Chapter1: Introduction to Reinforcement Learning**  

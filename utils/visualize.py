@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-import numpy as np
 
 def visualize_model(model, ax, nrow=4, ncol=4, title='Model') -> None:
     # visualize model

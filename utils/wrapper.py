@@ -1,6 +1,4 @@
 import gymnasium as gym
-import matplotlib
-import IPython
 from IPython import display
 import matplotlib.pyplot as plt
 from utils.visualize import visualize_policy, visualize_q, visualize_model, visualize_v
