@@ -15,8 +15,8 @@ This repo is written for people who want to quickly learn basic concepts of Rein
   </p>
 
 ## ☝️ Requirements
-- Python
-- Tensorflow
+- Python >= 3.6
+- Tensorflow >= 2.8 (for Chapter 7)
 - Numpy
 - Matplotlib
 - IPython
