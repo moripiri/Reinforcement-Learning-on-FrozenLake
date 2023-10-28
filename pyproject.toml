@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "rl-introduction"
+version = "1.0.0"
+description = "Reinforcement Learning in Gymnasium FrozenLake"
+authors = ["Yoonhee Gil <moripiri1234@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+tensorflow = {version = ">=2.6, <2.8", optional = true}
+gymnasium = {version = "^0.26.1"}
+numpy = "^1.26.1"
+matplotlib = "^3.8.0"
+ipython = "^8.16.1"
+ipykernel = "^6.26.0"
+pygame = "^2.3.1"
+
+[tool.poetry.group.ch7]
+optional = true
+
+[tool.poetry.group.ch7.dependencies]
+tensorflow = {version = ">=2.6, <2.8"}
+tensorflow-probability = "^0.22.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
