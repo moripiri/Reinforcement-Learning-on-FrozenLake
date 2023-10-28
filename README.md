@@ -11,7 +11,7 @@ This repo is written for people who want to quickly learn basic concepts of Rein
   - You can also run RL algorithms in FrozenLake-v1, a OpenAI Gymnasium environment, with hyperparmeter customization.
   - Wrapper for the environment can render not only the environment, but also state-action value or model of the algorithms.
   <p align="center">
-    <img src="./Images/viz_example.png" width=500 height=500>
+    <img src="./Images/dynaq.gif" width=500 height=500>
   </p>
 
 ## ☝️ Requirements
