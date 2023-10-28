@@ -15,12 +15,30 @@ This repo is written for people who want to quickly learn basic concepts of Rein
   </p>
 
 ## ☝️ Requirements
-- Python >= 3.6
-- Gymnasium >= 0.26.1
+- python >= 3.6
+- gymnasium >= 0.26.1
+- pygame >= 2.3.1
 - Tensorflow >= 2.8 (for Chapter 7)
-- Numpy
-- Matplotlib
-- IPython
+- ipykernel
+- ipython
+- numpy
+- matplotlib
+
+You can install the requirements by using Poetry
+```bash
+git clone https://github.com/moripiri/Reinforcement-Learning-on-FrozenLake.git
+cd Reinforcement-Learning-on-FrozenLake
+
+poetry install #--with ch7 #(If you want to run chapter7.ipynb, optional tensorflow dependency have to be installed.
+poetry run python -m ipykernel install --user --name [virtualEnv] --display-name "[displayKernelName]"
+```
+where `[virtualEnv]` is the name of the python environment(ex. rl-introduction-py3.9) and `"[displayKernelName]"` is the jupyter kernel name you want (ex. frozenlake).
+
+Then run 
+```bash
+poetry run jupyter notebook
+```
+to run jupyter files.
 
 ## 📖 Contents
 **Chapter1: Introduction to Reinforcement Learning**  
