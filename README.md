@@ -18,7 +18,8 @@ This repo is written for people who want to quickly learn basic concepts of Rein
 - python >= 3.6
 - gymnasium >= 0.26.1
 - pygame >= 2.3.1
-- Tensorflow >= 2.8 (for Chapter 7)
+- tensorflow >= 2.8 (for Chapter 7)
+- tensorflow-probability >= 0.22.1 (for Chapter 7)
 - ipykernel
 - ipython
 - numpy
