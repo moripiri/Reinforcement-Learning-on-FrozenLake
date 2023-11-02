@@ -1,8 +1,9 @@
 # Reinforcement-Learning-on-FrozenLake
 **Reinforcement Learning on FrozenLake** is a collection of jupyter files that you can learn and try basic reinforcement learning algorithms.  
 
-This repo is written for people who want to quickly learn basic concepts of Reinforcement Learning with code.  
+This repo is written for people who want to quickly learn basic concepts of Reinforcement Learning with code.
 
+---
 ## 💡 Features
 - **Easy explanation of RL concepts**
   - This book contains key part of the book **"Reinforcement Learning: An Introduction"**([pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)) by Richard S. Sutton and Andrew G. Barto.
@@ -13,7 +14,7 @@ This repo is written for people who want to quickly learn basic concepts of Rein
   <p align="center">
     <img src="./Images/dynaq.gif" width=500 height=500>
   </p>
-
+---
 ## ☝️ Requirements
 - python >= 3.6
 - gymnasium >= 0.26.1
@@ -41,12 +42,29 @@ poetry run jupyter notebook
 ```
 to run jupyter files.
 
+---
 ## 📖 Contents
-**Chapter1: Introduction to Reinforcement Learning**  
-**Chapter2: Markov Decision Processes**  
-**Chapter3: Dynamic Programming**   
-**Chapter4: Model-Free Prediction**  
-**Chapter5: Model-Free Control**  
-**Chapter6: Eligibility Traces**  
-**Chapter7: Policy Gradient Methods**  
-**Chapter8: Integrating Learning and Planning**  
+#### Chapter1: Introduction to Reinforcement Learning 
+#### Chapter2: Markov Decision Processes
+#### Chapter3: Dynamic Programming
+- **Policy iteration**
+- **Value iteration**
+
+#### Chapter4: Model-Free Prediction  
+- **Monte-Carlo Prediction**
+- **TD(0)**
+#### Chapter5: Model-Free Control
+- **On-policy Monte-Carlo Control**
+- **SARSA**
+- **Q-learning**
+#### Chapter6: Eligibility Traces
+- **SARSA(λ)**
+
+#### Chapter7: Policy Gradient Methods
+- **REINFORCE**
+- **Actor-Critic**
+
+#### Chapter8: Integrating Learning and Planning
+- **Dyna-Q**
+
+---
