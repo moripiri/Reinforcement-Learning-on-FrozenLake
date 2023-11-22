@@ -42,6 +42,16 @@ poetry run jupyter notebook
 ```
 to run jupyter files.
 
+## ☝️ Running in Google Colab
+
+If you run any jupyter file in **google colab**, run the following commands first.
+
+```bash
+!git clone https://github.com/moripiri/Reinforcement-Learning-on-FrozenLake.git
+%cd Reinforcement-Learning-on-FrozenLake/
+!pip install gymnasium[classic_control]==0.26.3
+```
+
 ---
 ## 📖 Contents
 #### Chapter1: Introduction to Reinforcement Learning 
