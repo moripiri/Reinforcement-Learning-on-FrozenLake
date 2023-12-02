@@ -9,8 +9,8 @@ This repo is written for people who want to quickly learn basic concepts of Rein
   - This book contains key part of the book **"Reinforcement Learning: An Introduction"**([pdf](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf)) by Richard S. Sutton and Andrew G. Barto.
   - The lecture **"Introduction to Reinforcement Learning with David Silver"**([link](https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver)) is also referred. 
 - **Interactive RL algorithm**
-  - You can also run RL algorithms in FrozenLake-v1, a OpenAI Gymnasium environment, with hyperparmeter customization.
-  - Wrapper for the environment can render not only the environment, but also state-action value or model of the algorithms.
+  - You can also run RL algorithms in **FrozenLake-v1**, a OpenAI Gymnasium environment, with hyperparmeter customization.
+  - Wrapper for the environment can render not only the environment, but also **state-action value** or **model** of the algorithms.
   <p align="center">
     <img src="./Images/dynaq.gif" width=500 height=500>
   </p>
@@ -26,7 +26,7 @@ This repo is written for people who want to quickly learn basic concepts of Rein
 - numpy
 - matplotlib
 
-You can install the requirements by using Poetry
+You can install the requirements by using **Poetry**.
 ```bash
 git clone https://github.com/moripiri/Reinforcement-Learning-on-FrozenLake.git
 cd Reinforcement-Learning-on-FrozenLake
