@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.12"
-tensorflow = {version = ">=2.6, <2.8", optional = true}
+tensorflow = {version = ">=2.8", optional = true}
 gymnasium = {version = "^0.26.1"}
 numpy = "^1.26.1"
 matplotlib = "^3.8.0"
@@ -19,7 +19,7 @@ pygame = "^2.3.1"
 optional = true
 
 [tool.poetry.group.ch7.dependencies]
-tensorflow = {version = ">=2.6, <2.8"}
+tensorflow = {version = ">=2.8"}
 tensorflow-probability = "^0.22.1"
 
 [build-system]
