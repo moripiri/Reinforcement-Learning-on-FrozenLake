@@ -3,6 +3,9 @@
 
 This repo is written for people who want to quickly learn basic concepts of Reinforcement Learning with code.
 
+**2024-11-24: Made a demo version of this repo! [link](https://rlonfrozenlake.streamlit.app/)**
+
+
 ---
 ## 💡 Features
 - **Easy explanation of RL concepts**
